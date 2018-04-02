@@ -1,0 +1,7 @@
+2.13. 
+NOs permite utilizar el codigo varias veces
+
+Conclusiones:
+
+-Se instaló la libreria express utilizando el gestor de paquetes de node.
+-Los middlewares nos permite la reutilizacion de codigo. 
