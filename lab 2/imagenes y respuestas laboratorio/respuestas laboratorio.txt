@@ -1,0 +1,10 @@
+2.3.	Faltaba declarar el arreglo arreglo_parametros.
+2.6.	Se esta obteniendo el valor de la url, de la cual se esta tomando como si fuera un string;
+	al tratarlo como una cadena se le esta cortando si es que tiene signo "?" del cual 
+	se saca la parte donde deberia de estar los parametros, y estos a su vez se cortan 
+	para obtener cada parametro a partir del simbolo "&".
+3.4.	Talvez hacer que la funcion valide que no haya parametros con el mismo nombre.
+3.8.	Cuando querramos añadir alguna información adicional para cierto tipo de usuario, un 
+	ejemplo seria si fuera un cliente vip que muestre una interfaz diferente.
+
+ 
