@@ -18,7 +18,7 @@ http.createServer(function(req,res){
 		}
 
 		html_string = html_string.replace('{identidad}',datos['identidad']);
-		html_string = html_string.replace('{poder}',datos['poder']);
+		htmlml_string = html_string.replace('{poder}',datos['poder']);
 
 
 		res.writeHead(200,{'Content-type':'text/html'});

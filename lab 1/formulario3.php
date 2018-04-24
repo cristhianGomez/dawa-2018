@@ -1,26 +1,20 @@
-<?php 
-$suma=0;
-$valor1=0;
-$valor2=0;
-
-if(isSet($_POST)){	$valor1=$_POST['T1'];
-	$valor2=$_POST['T2'];
-	$suma = $valor1+ $valor2;
-} ?>
 <html>
 <head>
-	<title>
-		Formulario PHP
-	</title>
+	<title>Formulario JavaScript</title>
+	<script type="text/javascript">
+		var sumar=function(){
+			var valor1=parseFloat(document.getElementById('T1').value);
+			var valor2=parseFloat(document.getElementById('T2').value);
+			document.getElementById('resultado').value=valor1+valor2;
+		};
+	</script>
 </head>
 <body>
-	<form method="POST" >
-		<p>Valor 1:<input type="text" id="T1" name="T1" size="20" value="<?php echo $valor1?>"></p>
-		
-		<p>Valor 2:<input type="text" id="T2" name="T2" size="20" value="<?php echo $valor2?>"></p>
-		<p><input type="submit" value="Sumar" name="B1" ></p>
-		<p>Resultado: <?php echo $suma; ?></p>
+	<form>
+		<p>Valor 1: <input type="text" id="T1" size="20"></p>
+		<p>Valor 2: <input type="text" id="T2" size="20"></p>
+		<p><input type="button" value="Sumar" onClick="sumar()"></p>
+		<p>Resultado: <input type="text" id="resultado" disabled="disabled"></p>
 	</form>
-
 </body>
 </html>

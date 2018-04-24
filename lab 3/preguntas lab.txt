@@ -1,0 +1,22 @@
+4.4:	Se agrego la dependencia underscore.
+
+
+4.7:
+	Cada item se imprimio uno a uno.
+
+
+4.12:	Como dice su nombre chain cadena esta uniendo varias funciones la primera selecciona empleados especificos dada la condicion y la segunda hace una nueva
+	matriz rrnombrando cada valor.
+6.8:	Falta el archivo package.json, para crar un package es necesario usar el comando npm init.
+
+7.1:	Los botones se guardan en el arreglo nodes, seguidamente a cada boton
+ 	se le agrega un evento el cual se activa al darle click.
+
+
+7.2:	
+Utilizamos un alert para que mucestre en mensaje en vez que en la consola.
+7.3:
+	Aqui se demuestra que node trabaja de forma asincrona ya que se trabajan podria decirse varios procesos a la vez y como los tiempos son diferentes se vio en desorden.
+	3, (pausa) 2
+
+

@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Formulario JavaScript</title>
+</head>
+<body>
+
+		<button onclick="init()">INICIAR</button><br>
+		<button>One</button>
+		<button>Two</button>
+		<button>Three</button>
+		<button>Four</button>
+
+</body>
+
+<footer>
+	
+	<script type="text/javascript">
+		function init(){
+			var nodes = document.getElementsByTagName('button');
+			for (var i = 0; i < nodes.length; i++) {
+			   nodes[i].addEventListener('click', (function(i) {
+			      return function() {
+			         alert('You clicked element #' + i);
+			      }
+			   })(i));
+			}
+		};
+	</script>
+</footer>
+
+</html>

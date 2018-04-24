@@ -25,6 +25,6 @@ module.exports= {
 
 		};
 		var nuevo= new user_model(item).save();
-		callback(item)	;
+		callback(item);
 	}
 };

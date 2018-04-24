@@ -5,12 +5,12 @@ $(document).ready(function(){
 	});
 	var fill=function(data){
 		var $row =$('<tr id="'+data._id+'">');
-		$row.append('<td>'++'</td>');
 	$row.append('<td>'+data._id+'</td>');
 	$row.append('<td>'+data.first_name+'</td>');
 	$row.append('<td>'+data.last_name+'</td>');
 	$row.append('<td>'+data.timezone+'</td>');
 	$row.append('<td>'+data.locale+'</td>');
+	$row.append('<td>'+data.profile_pic+'</td>');
 	$row.append('<td><button class="btn btn-success btn-sm" name="btnAct">Actualizar</button></td>');
 	$row.append('<td><button class="btn btn-danger btn-sm" name="btnAEli">ELIMINAR</button></td>');
 	$row.data('data',data);

@@ -1,0 +1,1 @@
+Faltaba declarar el arreglo arreglo_parametros

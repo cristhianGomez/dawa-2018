@@ -10,9 +10,12 @@ io.on('connection',function(socket){
 	socket.on('disconnect',function(){
 		console.log('Usuario desconectado!');
 	});
+	user.show(function(data){
+		io.emit('listar',data);
+	});
 
 	socket.on('crear',function(data){
-		user.create(data,function(rpta){
+		user.create(data,function(rpta){dx
 			io.emit('nuevo',rpta);
 		});
 		});
@@ -23,7 +26,7 @@ app.set('view engine','jade');
 app.use('/public',express.static('public'));
 
 app.get('/', function(req,res){
-	res.render('main');
+	res.render('main')	;
 });
 
 http.listen(port,function(){

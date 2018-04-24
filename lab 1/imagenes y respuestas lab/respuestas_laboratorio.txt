@@ -1,0 +1,18 @@
+5.3
+	5.3.1.	2
+	5.3.2.	1152
+	5.3.3.	NaN
+	5.3.4.	6
+5.4.	Los trabaja como enteros omitiendo la parte decimal.
+5.5.	Hay que cambiar la conversion de entero a flotante o double.
+7.4.	-Node.js: Instalará la aplicación node
+	-NPM PACKAGE MANAGER:Intalará el gestor de paquetes npm.
+	-ONLINE DOCUMENTATION SHORCUT: Instalara documentación breve.
+9.5.	Una vez se entra al localhost este imprime un mensaje en la consola de holamundo.
+9.8.	Este mensaje imprimer en el navegador el mensaje de hola mundo y al ingresar al navegador
+	en la consola imprime un mensaje de conexion entrante.
+9.10.	Imprime un bucle infinito en la consola desde el uno de manera creciente.
+10.3.	Utilizamos librerias para poder leer archivo html en nuestro servidor, en la variable
+	html obtuvimos nuestro archivo html creado.
+10.5.	ReadFile retorna una llamada que es response.send y readfilesync no retorna nada entonces
+	response no terminara a menos que lo hagas por consola.
