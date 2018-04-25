@@ -1,0 +1,5 @@
+3.5:
+La direccion "/producto" a través del método get va a leer o mostrar la data de producto.
+La direccion "/producto" a través del método post va a crear un registro de producto.
+La direccion "/producto/update" a través del método post va a modificar un registro de producto.
+La direccion "/producto/delete" a través del método post va a eliminar un registro de producto.
