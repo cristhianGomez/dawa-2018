@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Nodejs\\node.exe',
+1 verbose cli   'C:\\Nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\xampp\\htdocs\\lab 1\\lab 3\\proyecto',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\userJ\AppData\Roaming\npm-cache\proyecto\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\userJ\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle proyecto@1.0.0~prepublish: proyecto@1.0.0
+11 silly lifecycle proyecto@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\userJ\\AppData\\Roaming\\npm-cache\\proyecto\\1.0.0\\package.tgz',
+12 verbose tar pack   'C:\\xampp\\htdocs\\lab 1\\lab 3\\proyecto' ]
+13 verbose tarball C:\Users\userJ\AppData\Roaming\npm-cache\proyecto\1.0.0\package.tgz
+14 verbose folder C:\xampp\htdocs\lab 1\lab 3\proyecto
+15 verbose addLocalTarball adding from inside cache C:\Users\userJ\AppData\Roaming\npm-cache\proyecto\1.0.0\package.tgz
+16 verbose correctMkdir C:\Users\userJ\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd proyecto@1.0.0
+18 verbose afterAdd C:\Users\userJ\AppData\Roaming\npm-cache\proyecto\1.0.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\userJ\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\userJ\AppData\Roaming\npm-cache\proyecto\1.0.0\package\package.json written
+21 silly publish { name: 'proyecto',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'tecsup 2018',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   author: { name: 'Cristhian G.' },
+21 silly publish   license: 'ISC',
+21 silly publish   dependencies: { underscore: '^1.9.0' },
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   readmeFilename: 'readme.md',
+21 silly publish   _id: 'proyecto@1.0.0',
+21 silly publish   _shasum: 'e8509e3e934787307b502fff2304a2c0b68402c8',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name proyecto
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry http://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'proyecto',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'proyecto',
+26 silly mapToRegistry   name: 'proyecto',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri http://registry.npmjs.org/proyecto
+28 verbose publish registryBase http://registry.npmjs.org/
+29 silly publish uploading C:\Users\userJ\AppData\Roaming\npm-cache\proyecto\1.0.0\package.tgz
+30 verbose request uri http://registry.npmjs.org/proyecto
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 20:50:15
+33 verbose request using bearer token for auth
+34 verbose request id 71840272577c8d53
+35 http request PUT http://registry.npmjs.org/proyecto
+36 http 403 http://registry.npmjs.org/proyecto
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '102',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 25 Apr 2018 01:50:16 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-mia17622-MIA',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1524621016.458673,VS0,VE96',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating C:\Users\userJ\AppData\Roaming\npm-cache\registry.npmjs.org\proyecto on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You do not have permission to publish "proyecto". Are you logged in as the correct user? : proyecto
+40 verbose stack     at makeError (C:\Nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid proyecto
+43 verbose cwd C:\xampp\htdocs\lab 1\lab 3\proyecto
+44 error Windows_NT 10.0.16299
+45 error argv "C:\\Nodejs\\node.exe" "C:\\Nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.11.0
+47 error npm  v3.10.10
+48 error code E403
+49 error You do not have permission to publish "proyecto". Are you logged in as the correct user? : proyecto
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
