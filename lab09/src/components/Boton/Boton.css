@@ -1,0 +1,10 @@
+.boton{
+	font-size:  14px;
+	padding: 5px;
+	margin: 1px;
+	color: #9ACD32;
+	border-style: dotted;
+	border-color: #9ACD32;
+	border-radius: 1px;
+	border-width: 1px;
+}
