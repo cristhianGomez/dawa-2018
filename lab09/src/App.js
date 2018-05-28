@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Calculadora from './components/Calculadora/Calculadora';
+import Calculadora from './components/Calculadora/Calculadora4';
 
 class App extends Component{
 

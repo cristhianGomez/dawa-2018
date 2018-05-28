@@ -11,28 +11,33 @@ class App extends Component {
           <header>
             <nav>
             <ul>
-            <li><NavLink
+            <tr>
+            <td><NavLink
               to="/"
               exact
               activeStyle={{
                 color: '#fa923f',
                 textDecoration: 'underline'
 
-              }}>Inicio</NavLink></li>
-            <li><NavLink
+              }}>Inicio</NavLink></td></tr>
+            <tr>
+            <td><NavLink
               to="/posts"
               exact
               activeStyle={{
                 color: '#fa923f',
                 textDecoration: 'underline'
 
-              }}>Posts</NavLink></li>
+              }}>Posts</NavLink</td></tr>
+              
 
-            <li><NavLink to={{
+            <tr>
+            <td><NavLink to={{
                 pathname: '/new-post',
                 hash: '#submit',
                 search: '?quick-submit=true'
-              }}>New Post</NavLink></li>
+              }}>New Post</NavLink></td></tr>
+              
             </ul>
             </nav>
           </header>
