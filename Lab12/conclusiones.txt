@@ -1,0 +1,4 @@
+1.  Comprobamos que las peticiones HTTP a nuestra API funcionaron correctamente.
+2.  Se utilizó postman para testear las peticiones a nuestra api.
+3.  json web tokens facilita implementar seguridad en nuestra aplicación.
+4.  Desarrollamos una pequeña api implementando node a nuestro proyecto.
